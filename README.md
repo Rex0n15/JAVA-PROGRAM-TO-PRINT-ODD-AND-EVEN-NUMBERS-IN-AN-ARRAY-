@@ -58,9 +58,38 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
 
+public class OddEvenArray {
+    public static void main(String[] args) {
+
+        int[] arr = {10, 15, 22, 33, 40, 55};
+
+        System.out.println("Even numbers:");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+
+        System.out.println();
+
+        System.out.println("Odd numbers:");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 != 0) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+    }
+}
+
 ## OUTPUT:
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cd6c9493-426b-4501-9c89-da228e001b73" />
+
 
 
 
 
 ## RESULT:
+The Odd numbers and Even numbers were printed using java program 
+
+
